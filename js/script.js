@@ -36,14 +36,51 @@ AOS.init({
                 });
             });
         }); 
-
-    $('.owl-carousel').owlCarousel({
+// Existing Owl Carousel
+$('.owl-carousel')
+    .not('.tech-carousel, .social-carousel, .branding-carousel')
+    .owlCarousel({
         items:1,
         loop:true,
         autoplay:true,
-        dots:false,
-        autoplayTimeout:8000
+        autoplayTimeout:8000,
+        dots:false
     });
+// Instagram Preview
+$('.tech-carousel, .social-carousel, .branding-carousel').owlCarousel({
+
+    items: 1,
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    autoplayHoverPause: true,
+    smartSpeed: 700,
+    dots: true,
+    nav: false,
+    mouseDrag: true,
+    touchDrag: true
+
+});
+/* ==========================================
+   Instagram Navigation Arrows
+========================================== */
+
+$('.instagram-card').each(function () {
+
+    var owl = $(this).find('.owl-carousel');
+
+    $(this).find('.next').on('click', function () {
+        owl.trigger('next.owl.carousel');
+    });
+
+    $(this).find('.prev').on('click', function () {
+        owl.trigger('prev.owl.carousel');
+    });
+
+});
+
+
 
     // Shuffle js filter and masonry
     var Shuffle = window.Shuffle;
