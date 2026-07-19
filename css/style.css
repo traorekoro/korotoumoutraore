@@ -2382,3 +2382,40 @@ textarea.form-control {
     transform:rotate(45deg);
 
 }
+
+/* ===== Sélecteur de langue FR / EN ===== */
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 20px;
+}
+
+.lang-switcher button {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.lang-switcher button:hover {
+  border-color: currentColor;
+}
+
+.lang-switcher button.active {
+  background: var(--color-primary, #2d5cf6);
+  color: #fff;
+  border-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .lang-switcher {
+    margin: 15px 0 0 0;
+  }
+}
