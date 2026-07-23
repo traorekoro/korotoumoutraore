@@ -2518,13 +2518,13 @@ textarea.form-control {
 }
 
 .skill-pill i {
-  color: #f45b69;
+  color: #f44336;
 
   font-size: 18px;
 }
 
 .skill-pill:hover {
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
