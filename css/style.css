@@ -259,11 +259,11 @@ a:hover {
 }
 
 .brand-logo:hover .brand-name span {
-  color: #ff6b7a;
+  color: #f44336;
 }
 
 .brand-logo:hover .brand-subtitle {
-  color: #f45b69;
+  color: #f44336;
 }
 
 @media (max-width: 768px) {
@@ -543,7 +543,7 @@ ul.dropdown-menu > li > a:hover,
 
   /* box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08); */
 
-  border-color: #f45b69;
+  border-color: #f44336;
 }
 
 .logo-item img {
@@ -2001,7 +2001,7 @@ textarea.form-control {
 
   width: 3px;
 
-  background: #f45b69;
+  background: #f44336;
 }
 
 .career-item {
@@ -2063,7 +2063,7 @@ textarea.form-control {
 }
 
 .career-date {
-  color: #f45b69;
+  color: #f44336;
 
   font-weight: 700;
 
@@ -2224,9 +2224,9 @@ textarea.form-control {
 }
 
 .skill-tags span:hover {
-  background: #f45b69;
+  background: #f44336;
 
-  border-color: #f45b69;
+  border-color: #f44336;
 
   color: #fff;
 
@@ -2258,7 +2258,7 @@ textarea.form-control {
 
   border-radius: 50%;
 
-  background: #f45b69;
+  background: #f44336;
 
   opacity: 0.05;
 
@@ -2346,7 +2346,7 @@ textarea.form-control {
 .education-date {
   display: inline-block;
 
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
@@ -2448,7 +2448,7 @@ textarea.form-control {
 }
 
 .window-header span:nth-child(1) {
-  background: #ff5f57;
+  background: #f44336;
 }
 
 .window-header span:nth-child(2) {
@@ -2518,13 +2518,13 @@ textarea.form-control {
 }
 
 .skill-pill i {
-  color: #f45b69;
+  color: #f44336;
 
   font-size: 18px;
 }
 
 .skill-pill:hover {
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
@@ -2572,7 +2572,7 @@ textarea.form-control {
 
   border-radius: 50%;
 
-  background: #f45b69;
+  background: #f44336;
 
   opacity: 0.08;
 
@@ -2648,7 +2648,7 @@ textarea.form-control {
 }
 
 .phone-card::before {
-  background: #f45b69;
+  background: #f44336;
 }
 
 .location-card::before {
@@ -2682,7 +2682,7 @@ textarea.form-control {
 }
 
 .phone-card .contact-icon {
-  background: linear-gradient(135deg, #f45b69, #ff8c96);
+  background: linear-gradient(135deg, #f44336, #f44336);
 }
 
 .location-card .contact-icon {
@@ -2714,7 +2714,7 @@ textarea.form-control {
 }
 
 .contact-card a:hover {
-  color: #f45b69;
+  color: #f44336;
 
   text-decoration: none;
 }
@@ -2736,7 +2736,7 @@ textarea.form-control {
 
   right: -35px;
 
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
