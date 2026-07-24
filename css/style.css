@@ -259,11 +259,11 @@ a:hover {
 }
 
 .brand-logo:hover .brand-name span {
-  color: #ff6b7a;
+  color: #f44336;
 }
 
 .brand-logo:hover .brand-subtitle {
-  color: #f45b69;
+  color: #f44336;
 }
 
 @media (max-width: 768px) {
@@ -543,7 +543,7 @@ ul.dropdown-menu > li > a:hover,
 
   /* box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08); */
 
-  border-color: #f45b69;
+  border-color: #f44336;
 }
 
 .logo-item img {
