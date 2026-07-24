@@ -2572,7 +2572,7 @@ textarea.form-control {
 
   border-radius: 50%;
 
-  background: #f45b69;
+  background: #f44336;
 
   opacity: 0.08;
 
@@ -2648,7 +2648,7 @@ textarea.form-control {
 }
 
 .phone-card::before {
-  background: #f45b69;
+  background: #f44336;
 }
 
 .location-card::before {
@@ -2682,7 +2682,7 @@ textarea.form-control {
 }
 
 .phone-card .contact-icon {
-  background: linear-gradient(135deg, #f45b69, #ff8c96);
+  background: linear-gradient(135deg, #f44336, #f44336);
 }
 
 .location-card .contact-icon {
@@ -2714,7 +2714,7 @@ textarea.form-control {
 }
 
 .contact-card a:hover {
-  color: #f45b69;
+  color: #f44336;
 
   text-decoration: none;
 }
@@ -2736,7 +2736,7 @@ textarea.form-control {
 
   right: -35px;
 
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
