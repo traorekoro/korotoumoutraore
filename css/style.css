@@ -2224,9 +2224,9 @@ textarea.form-control {
 }
 
 .skill-tags span:hover {
-  background: #f45b69;
+  background: #f44336;
 
-  border-color: #f45b69;
+  border-color: #f44336;
 
   color: #fff;
 
@@ -2258,7 +2258,7 @@ textarea.form-control {
 
   border-radius: 50%;
 
-  background: #f45b69;
+  background: #f44336;
 
   opacity: 0.05;
 
@@ -2346,7 +2346,7 @@ textarea.form-control {
 .education-date {
   display: inline-block;
 
-  background: #f45b69;
+  background: #f44336;
 
   color: #fff;
 
@@ -2448,7 +2448,7 @@ textarea.form-control {
 }
 
 .window-header span:nth-child(1) {
-  background: #ff5f57;
+  background: #f44336;
 }
 
 .window-header span:nth-child(2) {
