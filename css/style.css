@@ -2643,18 +2643,6 @@ textarea.form-control {
 
 /* Different colors */
 
-.email-card::before {
-  /* background: #4f8cff; */
-}
-
-.phone-card::before {
-  /* background: #f44336; */
-}
-
-.location-card::before {
-  /* background: #00b894; */
-}
-
 .contact-icon {
   width: 85px;
 
